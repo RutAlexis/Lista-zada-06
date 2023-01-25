@@ -1,45 +1,26 @@
 .form {
-    font-family: Open Sans, sans-serif;
-    
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20 px;
 }
-
-.div__form {
-    background-color: white;
-    padding: 7px;
-    margin: 2px 50px;
-    font-weight: bold;
-    font-family: Open Sans, sans-serif;
+.form__input {
+    padding: 10px;
+    border: 1px solid #ddd;
 }
 
 .form__button {
-    background-color: teal;
-    color: white;
-    border: none;
-    padding: 7px;
-    margin: 2px 2px 5px 5px;
-    align-self: center;
-    font-weight: none;
-}
-
-.form_newTask {
-   background-color: white;
     padding: 10px;
-    font-weight: bold;
-    height: 35px;
-    align-self: center;
-  width: 650px;
-  font-weight: none;
-
+    background: teal;
+    color: white ;
+    border: none;
+}
+.form__button:hover {
+    background: hsl(180, 100%, 30%);
+}
+.form__button:active {
+    background: hsl(180, 100%, 35%);
 }
 
 
-.div__form--newTask {
-    background-color: white;
-    padding: 20px;
-    margin: 2px 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-basis: 500px;
-    font-weight: none;
-}
+
+

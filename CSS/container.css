@@ -5,11 +5,8 @@
     margin: 0 auto;
 }
 
-.subheader {
-    margin:20px 50px;
-}
-
 .container__header {
     font-family: Open Sans, sans-serif ;
-    font-weight: bold;
+    font-weight: bold; 
+    margin:20px 50px;
 }
