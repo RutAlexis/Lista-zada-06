@@ -70,13 +70,17 @@
 
     const onFromSubmit = (event) => {
         event.preventDefault();
+        const newTaskElement = document.querySelector(".js-newTask");
         const newTaskContent = document.querySelector(".js-newTask").value.trim();
 
-        if (newTaskContent === "") {
-            return;
+        if (newTaskContent !== "") {
+            addNewTasks(newTaskContent);
+            newTaskElement.value = ""
+
         };
 
         addNewTasks(newTaskContent);
+        newTaskContent.focus();
     };
 
     const init = () => {
