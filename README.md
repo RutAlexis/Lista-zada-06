@@ -1,5 +1,8 @@
  TO-do-list
 
+##
+
+The app helps you to do basic task list management and scheduling. 
 
 ## Demo 
 
