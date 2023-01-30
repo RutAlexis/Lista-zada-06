@@ -2,12 +2,27 @@
     margin: 15px 0;
     background: white;
     box-shadow: 0 0 5px #ddd ;
+    font-family: Open Sans, sans-serif;
+}
+
+.section__subheader {
+    font-size: 20px;
+    margin: 10px;
+    padding: 15px;
 }
 
 .section__header {
-    font-size: 20px;
-    padding: 20px;
-    margin: 0;
     border-bottom: 1px solid #ddd;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 20px; */
 }
 
+@media(max-width: 767px) {
+    .section__header {
+        grid-template-columns: 1fr;
+    }
+}
