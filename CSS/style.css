@@ -10,3 +10,7 @@ html {
     margin: 5px 50px;
 }
 
+body {
+    font-family: Open Sans, sans-serif;
+    background: #eee;
+}

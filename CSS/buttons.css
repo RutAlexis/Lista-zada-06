@@ -17,10 +17,11 @@
 
 @media(max-width: 767px) {
     .buttons__button {
-        flex-basis : 100px;
-        margin: 10px;
-    }
+        flex-basis: 100px;
+        margin: 10px auto;
+         }
 }
+
 .buttons__button:hover {
     color: hsl(180, 100%, 35%);
 }

@@ -9,7 +9,7 @@
             done: true,
         },
     ];
-    
+
     let hideDoneTasks = false;
 
     const removeTask = (taskIndex) => {
@@ -143,7 +143,7 @@
             newTaskElement.value = ""
         };
 
-        addNewTasks(newTaskContent);
+      
         newTaskElement.focus();
     };
 
