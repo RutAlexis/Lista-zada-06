@@ -76,7 +76,7 @@
         const taskToHTML = task => `   
                 <li class="tasks__item ${task.done && hideDoneTasks ? "tasks__item--hidden" : ""}">  
                     <button class="tasks__button tasks__button--toggleDone js-toggleDone">
-                        ${task.done ? "&#x2714;" : ""}
+                        ${task.done ? "✔" : ""}
                     </button>
                     <span class="tasks__content${task.done ? " tasks__content--done" : ""}" > 
                         ${task.content}
